@@ -1,9 +1,10 @@
 import BookCard from "./BookCard";
+import "./index.css";
 
 function App() {
     return (
         <>
-            <div className="App">
+            <div className="app">
                 <div className="header">
                     <a
                         href="/"

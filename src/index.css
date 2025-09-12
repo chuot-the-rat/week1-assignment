@@ -1,3 +1,7 @@
+.app {
+    background: #f0e6fa;
+}
+
 .header {
     text-align: center;
     margin-bottom: 20px;
@@ -7,3 +11,49 @@
     margin: 0;
 }
 
+.logo {
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    width: 1060px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 340px;
+    height: 260px;
+    padding: 13px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.card:hover {
+    box-shadow: 0 1px 10px 0 rgba(244, 137, 239, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+button {
+    width: 340px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+}
+
+.btn {
+    padding-top: 20px;
+}
