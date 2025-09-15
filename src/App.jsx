@@ -43,7 +43,7 @@ function App() {
                 </div>
 
                 <div className="footer">
-                    <div> © 2025 Book Shop</div>
+                    <div>Leana Le © 2025 Book Shop</div>
                 </div>
             </div>
         </>
