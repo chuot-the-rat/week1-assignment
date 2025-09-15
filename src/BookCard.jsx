@@ -1,9 +1,10 @@
-
-
 function BookCard({ book }) {
     return (
         <div className="card">
-            <a href={book.link}>
+            <a
+                href={book.link}
+                target="_blank"
+            >
                 <div className="image">
                     <img
                         src={book.image}
