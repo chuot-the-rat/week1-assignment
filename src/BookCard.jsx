@@ -2,8 +2,9 @@ function BookCard({ book }) {
     return (
         <div className="card">
             <a
-                href={book.link}
+                href={book.url}
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <div className="image">
                     <img
@@ -13,9 +14,6 @@ function BookCard({ book }) {
                 </div>
                 <div className="title">
                     <h2>{book.title}</h2>
-                </div>
-                <div className="author">
-                    <p>Author: {book.author}</p>
                 </div>
                 <div className="price">
                     <p>Price: {book.price}</p>
